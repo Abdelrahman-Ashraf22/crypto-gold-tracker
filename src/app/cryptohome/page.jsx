@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import CryptoCard from "./cryptocard/page.jsx";
 import { BsCurrencyExchange } from "react-icons/bs";
+import CryptoCard from "./cryptocard/cryptoCard";
 
 export default function Page() {
   const [cryptoList, setCryptoList] = useState([]);
